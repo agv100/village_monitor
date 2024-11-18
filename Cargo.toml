@@ -1,0 +1,12 @@
+[package]
+name = "village_monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.7"
+chrono = "0.4.38"
+influx_db_client = "0.5.1"
+serde = {version = "1.0.213", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+url = "2.5.3"
