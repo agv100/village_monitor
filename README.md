@@ -76,4 +76,4 @@ use Sensors111
 select * from DHT22s
 ```
 
-
+If everythin OK, install visualisation software compatible with InfluxDB as backend, i.e.  Grafana, configure visualisation with simple selects from DHT22s measurement.
